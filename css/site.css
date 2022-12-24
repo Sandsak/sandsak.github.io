@@ -4,6 +4,10 @@
     --c3: #a51931;
 }
 
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     background-color: var(--c1);
     padding-bottom: 3.7rem;
@@ -258,7 +262,7 @@ a.nav-link.active > i.fill {
 .list-contact {
     transition: all 0.25s ease;
     background-color: unset;
-    border: 1px solid rgba(248, 249, 250, 0.075);
+
 }
 .list-contact:hover {
     background-color: rgba(248, 249, 250, 0.05);
@@ -290,9 +294,12 @@ a.nav-link.active > i.fill {
 }
 
 .footer-text {
+    color: var(--bs-light);
+    text-align: center;
+    text-transform: uppercase;
     font-size: 0.85rem !important;
     font-weight: 300;
-    text-transform: uppercase;
+    padding-bottom: 0.5rem;
 }
 
 /* GMAP */
@@ -311,6 +318,7 @@ a.nav-link.active > i.fill {
     height:400px;
 }
 #btn-gmap {
+    color: var(--bs-light);
     background-color: var(--c2);
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem rgba(0,0,0,.15) !important;
