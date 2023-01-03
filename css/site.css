@@ -2,6 +2,7 @@
     --c1: #1c1c1e;
     --c2: #2a2a2c;
     --c3: #a51931;
+    --headings-font-family: 'Exo 2', sans-serif;
 }
 
 html {
@@ -234,10 +235,12 @@ a.nav-link.active > i.fill {
     background-color: var(--c2);
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 0.5rem;
-    font-family:  'Exo 2', sans-serif;
+    font-family: var(--headings-font-family);
     font-style: italic;
 }
-.card-header-coach>h5 {
+.card-header-coach>h4 {
+    color: var(--bs-light);
+    font-size: 1.25rem;
     font-weight: 400;
     margin: 0 0 0.25rem 0;
     border-bottom: .125rem solid var(--c3);
@@ -254,7 +257,7 @@ a.nav-link.active > i.fill {
     margin-bottom: 1.75rem;
     border-bottom: .4rem solid var(--c3);
     text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
+    font-family: var(--headings-font-family);
     font-weight: 800;
     font-style: italic;
 }
