@@ -238,7 +238,7 @@ a.nav-link.active > i.fill {
     font-family: var(--headings-font-family);
     font-style: italic;
 }
-.card-header-coach>h4 {
+.card-header-coach>h3 {
     color: var(--bs-light);
     font-size: 1.25rem;
     font-weight: 400;
